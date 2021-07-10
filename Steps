@@ -1,0 +1,19 @@
+Seach in google Create Anaconda Environment
+Then in Anaconda Promt --- give  --- conda create -n myenv python=3.7
+Once the new environment is created give --- activate myenv
+And the give cd and path of your folder
+Once you inside the Working Directory -- Launch jupyter notebook
+
+
+After coding everthing go to a new anaconda promt terminal 
+There give activate myenv
+There give -- pip freeze --all > requirements.txt
+To get the requirements.txt
+
+
+
+GitHub
+
+git config --global user.name "Barkha"
+git config --global usern.email "barkhakabra24@gmail.com"
+touch .gitignore
