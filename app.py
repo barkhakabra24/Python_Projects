@@ -66,7 +66,5 @@ def predict():
 app.add_url_rule('/tool', 'webio_view', webio_view(predict),
             methods=['GET', 'POST', 'OPTIONS'])
 
-
-app.run(host='localhost', port=8080)
-
-#visit http://localhost/tool to open the PyWebIO application.
+PORT = int(os.environ.get('PORT', 5000))
+app.run(host='localhost', port=PORT)
